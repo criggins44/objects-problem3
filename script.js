@@ -17,6 +17,8 @@ const aquemini = {
 
 function itemCounter(aquemini){
 	let count = Object.keys(aquemini).length;
+//varibale stores the number of keys in the object by using length method
+	
 	return count
 }
 
