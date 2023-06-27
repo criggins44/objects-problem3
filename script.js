@@ -14,9 +14,10 @@ const aquemini = {
 }
 
 //console.log(Object.values(aquemini));
-let count = 0
 
-for (let properties in aquemini){
-	count = count + 1
+function itemCounter(aquemini){
+	let count = Object.keys(aquemini).length;
+	return count
 }
-console.log(count);
+
+console.log(itemCounter(aquemini))
