@@ -13,4 +13,10 @@ const aquemini = {
 	label: 'LaFace',
 }
 
-console.log(Object.keys(aquemini));
+//console.log(Object.values(aquemini));
+let count = 0
+
+for (let properties in aquemini){
+	count = count + 1
+}
+console.log(count);
